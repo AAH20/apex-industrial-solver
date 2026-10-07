@@ -7,6 +7,8 @@
 [![Dependencies: Zero](https://img.shields.io/badge/Dependencies-Zero%20(Pure%20Stdlib)-success.svg)](pyproject.toml)
 [![Tests: 100% Pass](https://img.shields.io/badge/Tests-15%2F15%20Passing-brightgreen.svg)](tests/)
 
+`operations-research` • `optimization` • `combinatorial-optimization` • `linear-programming` • `mixed-integer-programming` • `mip-solver` • `vehicle-routing-problem` • `vrp` • `job-shop-scheduling` • `bin-packing` • `supply-chain` • `logistics-optimization` • `np-hard` • `branch-and-bound` • `or-tools` • `python` • `zero-dependency`
+
 ---
 
 ## 1. System Architecture
