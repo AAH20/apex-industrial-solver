@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apex-industrial-solver"
+version = "0.1.0"
+description = "Zero-Dependency Pure Python Operations Research Hypervisor (Gurobi & CPLEX Alternative)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "AAH20", email = "aah20@users.noreply.github.com"}
+]
+keywords = [
+    "operations-research",
+    "bin-packing-3d",
+    "vrptw",
+    "job-shop-scheduling",
+    "facility-location",
+    "linear-programming",
+    "branch-and-bound",
+    "gurobi-alternative"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics"
+]
+dependencies = []
+
+[project.scripts]
+apex-solver = "apex_industrial_solver.cli:main"
+industrial-solver = "apex_industrial_solver.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["apex_industrial_solver*"]
